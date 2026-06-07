@@ -27,4 +27,17 @@ create table suporte(
  id_suporte int auto_increment primary key,
  data_login data not null 
 );
+insert into cadastro_de_usuarios (nome) values ("Gustavo");
+insert into relatorio_acesso (registro_acesso) values ("Acesso ok");
+insert into administradores(nome) values ("Guilherme");
+insert into vendedores(nome) values ("Lucas");
+insert into suporte (nome) values ("Juliana");
+
+select * from cadastro_de_usuarios;
+select * from relatorio_acesso;
+select * from administradores;
+select * from vendedores;
+select * from suporte;
+
+
 
